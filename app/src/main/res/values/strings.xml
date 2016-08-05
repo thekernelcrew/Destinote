@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">destinote</string>
+    <string name="facebook_app_id">198389677229885</string>
+    <string name="enter_task_name">enter task name</string>
+    <string name="location">Location</string>
+    <string name="time">Time</string>
+    <string name="create_task">create task</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_date">Date</string>
+    <string name="close_on_single_tap_minute">close on single tap minute</string>
+    <string name="select_time">Time</string>
+    <string name="close_on_single_tap_day">close on single tap day</string>
+    <string name="vibrate">vibrate</string>
+    <string name="if_none_leave_blank">If none, leave blank</string>
+    <string name="send_back">back to task</string>
+    <string name="no_recurrence">No recurrence</string>
+    <string name="geofence_transition_entered">Entered Location</string>
+    <string name="geofence_transition_exited">Exited Location</string>
+    <string name="geofence_transition_dwell">Currently in Location</string>
+    <string name="geofence_transition_unknown">At Location, Transition Unknown</string>
+    <string name="geofence_transition_notification_title">title</string>
+    <string name="geofence_transition_notification_text">Example geofence</string>
+    <string name="enter_task_description_optional">enter task description (optional)</string>
+    <string name="leave_blank_for_all_day">Leave blank for all day</string>
+    <string name="start">Start</string>
+    <string name="no_recurrence_set">No Recurrence Set</string>
+    <string name="default_all_day">Default: all day</string>
+    <string name="end">End</string>
+    <string name="default_continues_until_deleted">Default: continues until deleted</string>
+    <string name="date">Date</string>
+    <string name="repeating">repeating</string>
+    <string name="leave_blank_to_start_immediately">Leave blank to start immediately</string>
+    <string name="set_location_for_task">set location for task</string>
+    <string name="set">Set</string>
+    <string name="location_set">location</string>
+    <string name="Time">time</string>
+    <string name="cancel">cancel</string>
+    <string name="all_day">all-day</string>
+    <string name="settings">Settings</string>
+    <string name="location_notif_title">Destinote</string>
+    <string name="time_notif_description">You have a task at this time</string>
+    <string name="location_notif_description">You have a task at this location</string>
+    <string name="welcome_mesage">Welcome to Destinote.</string>
+    <string name="app_description">for all the forgetful minds.</string>
+    <string name="edit_task">edit task</string>
+    <string name="set_recurrence">set recurrence</string>
+    <string-array name="spRepeatMode">
+        <item>Until a date</item>
+        <item>For a # of events</item>
+    </string-array>
+</resources>

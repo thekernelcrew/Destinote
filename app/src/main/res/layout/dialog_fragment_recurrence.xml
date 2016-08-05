@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starts on:"
+        android:id="@+id/tvStartsOn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeats on:"
+        android:id="@+id/tvRepeatsOn"
+        android:layout_below="@+id/tvStartsOn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ends on:"
+        android:id="@+id/tvEndsOn"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/llSecondHalfOfWeek"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStartDate"
+        android:layout_above="@+id/tvRepeatsOn"
+        android:layout_toRightOf="@+id/tvRepeatsOn"
+        android:layout_toEndOf="@+id/tvRepeatsOn"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:textColor="@color/accent_blue" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llFirstHalfOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvRepeatsOn">
+
+        <ToggleButton
+            android:textOn="S"
+            android:textOff="S"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbSunday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+        <ToggleButton
+            android:textOn="M"
+            android:textOff="M"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbMonday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+        <ToggleButton
+            android:textOn="T"
+            android:textOff="T"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbTuesday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+        <ToggleButton
+            android:textOn="W"
+            android:textOff="W"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbWednesday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llSecondHalfOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/llFirstHalfOfWeek">
+
+        <ToggleButton
+            android:textOn="T"
+            android:textOff="T"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbThursday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+        <ToggleButton
+            android:textOn="F"
+            android:textOff="F"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbFriday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+        <ToggleButton
+            android:textOn="S"
+            android:textOff="S"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbSaturday"
+            android:checked="false"
+            style="@style/RecurToggleButton" />
+
+    </LinearLayout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rgRecurOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tvEndsOn"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:id="@+id/rbEndDate"
+                android:checked="false" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvEndDate"
+                android:text="text" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After"
+                android:id="@+id/rbNumRepeat"
+                android:checked="false" />
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etNumRepeat"
+                android:hint="5"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Recurrences"
+                android:id="@+id/tvRecur" />
+
+        </LinearLayout>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/btnCancelRecur"
+        android:onClick="cancelSettingRecurrence"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnSetRecurrence"
+        android:onClick="onSetRecurrence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_recurrence"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@id/btnCancelRecur"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

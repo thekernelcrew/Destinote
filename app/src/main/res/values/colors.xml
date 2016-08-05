@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#808BDCE3</color>
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+    <color name="today">#5090c4</color>
+    <color name="greyed_out">#c7c7c7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_maps">#525252</color>
+
+    <color name="event_red">#ffa7a7</color>
+    <color name="event_orange">#ffc46a</color>
+    <color name="event_yellow">#ffe269</color>
+    <color name="event_green">#85cc75</color>
+    <color name="event_blue">#8b7fff</color>
+    <color name="event_cyan">#65d5ff</color>
+    <color name="event_purple">#d79cff</color>
+    <color name="event_pink">#ff8ad1</color>
+    <color name="event_gray">#b9b9b9</color>
+    <color name="rand1">#80ded6</color>
+    <color name="rand2">#ff9582</color>
+    <color name="rand3">#ff9cea</color>
+    <color name="rand4">#80e9aa</color>
+    <color name="rand5">#dfe994</color>
+    <color name="rand6">#99beff</color>
+    <color name="rand7">#d7c49d</color>
+
+
+
+
+    <color name="accent_blue">#70B0B5</color>
+    <color name="hint_grey">#9B9B9B</color>
+    <color name="accent_blue_transparent">#7370B0B5</color>
+
+
+</resources>

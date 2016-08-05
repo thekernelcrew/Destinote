@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="toolbarStyle">@style/GradientToolbarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:buttonStyle">@style/BlueButton</item>
+    </style>
+
+    <!--<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">-->
+        <!--<item name="android:windowBackground">@drawable/background_splash</item>-->
+    <!--</style>-->
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_three_dots</item>
+    </style>
+
+
+    <style name="BlueButton" parent="android:Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/shape_button_states</item>
+    </style>
+
+    <style name="ClearButton" parent="@style/BlueButton">
+        <item name="android:textColor">@color/hint_grey</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">9dp</item>
+    </style>
+
+    <style name="NoGradientBlueButton" parent="@style/BlueButton">
+        <item name="android:background">@drawable/shape_button_solid_blue</item>
+        <item name="android:layout_margin">9dp</item>
+    </style>
+
+    <style name="BlueCheckbox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/hint_grey</item>
+        <item name="colorControlActivated">@color/accent_blue</item>
+    </style>
+
+    <style name="RecurToggleButton" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/shape_toggle_button_states</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="GradientToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@drawable/gradient_toolbar</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="TabLayoutTextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="fbLoginButton">
+        <item name= "android:background">#1A000000</item>
+        <item name="android:gravity"> center</item>
+    </style>
+
+</resources>

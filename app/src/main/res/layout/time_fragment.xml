@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/timeLayout">
+    <include android:id= "@+id/linearList1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList7"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList8"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList9"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList10"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList11"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList12"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList13"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+    <include android:id= "@+id/linearList14"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList15"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+         <include android:id= "@+id/linearList16"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList17"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList18"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList19"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList20"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList21"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList22"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList23"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+        <include android:id= "@+id/linearList24"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            layout="@layout/item_time"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:id="@+id/lvChecklist"
+        android:padding="5dp" />
+</LinearLayout>
